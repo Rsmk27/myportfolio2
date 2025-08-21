@@ -181,7 +181,7 @@ const Skills = () => {
                         : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
                     }`}
                   >
-                    <category.icon className="w-5 h-5" />
+                    {React.createElement(category.icon, { className: "w-5 h-5" })}
                     <span className="text-sm">{category.title}</span>
                   </button>
                 ))}
