@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, Download, Mail, Github, Linkedin, Zap, Circuit, Cpu } from 'lucide-react';
+import { ChevronDown, Download, Mail, Github, Linkedin, Zap, CircuitBoard, Cpu } from 'lucide-react';
 import AOS from 'aos';
 
 const Hero = () => {
