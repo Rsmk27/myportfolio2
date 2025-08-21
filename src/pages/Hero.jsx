@@ -83,7 +83,7 @@ const Hero = () => {
           >
             {i % 3 === 0 && <Cpu className="w-8 h-8 text-blue-400" />}
             {i % 3 === 1 && <Zap className="w-8 h-8 text-purple-400" />}
-            {i % 3 === 2 && <Circuit className="w-8 h-8 text-green-400" />}
+            {i % 3 === 2 && <CircuitBoard className="w-8 h-8 text-green-400" />}
           </motion.div>
         ))}
       </div>
