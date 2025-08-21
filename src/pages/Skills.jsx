@@ -219,7 +219,7 @@ const Skills = () => {
             >
               <div className="flex items-center space-x-4 mb-8">
                 <div className={`p-3 rounded-xl bg-gradient-to-br ${skillCategories[activeCategory].color} bg-opacity-20`}>
-                  <skillCategories[activeCategory].icon className="w-8 h-8 text-white" />
+                  {React.createElement(skillCategories[activeCategory].icon, { className: "w-8 h-8 text-white" })}
                 </div>
                 <h3 className="text-2xl font-bold text-white">{skillCategories[activeCategory].title}</h3>
               </div>
